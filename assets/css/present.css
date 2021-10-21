@@ -1,0 +1,120 @@
+.present__photo{
+    object-fit: cover;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.present__group-title{
+    margin-bottom: 10px;
+}
+.present__title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.present__subtitle{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.present__description{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+}
+.present__order-btn{
+    background: #E87C40;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 60px;
+}
+@media (min-width:480px){
+.present__container {
+    display: flex;
+}
+.present__photo {
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.present__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.present__title {
+    font-size: 40px;
+}
+.present__subtitle {
+    font-size: 18px;
+}
+.present__description {
+    font-size: 16px;
+}
+.present__order-btn {
+    font-size: 18px ;
+}
+}
+@media (min-width:768px){
+.present__photo {
+    width: 375px;
+    margin-right: 27px;
+}
+.present__group-title {
+    margin-bottom: 40px;
+}
+.present__title {
+margin-bottom: 24px;
+}
+.present__description {
+    margin-bottom: 60px;
+}
+.present__order-btn {
+    padding: 24px 82px ;
+}
+}
+@media (min-width:992px) {
+.present {
+    position: relative;
+}
+.present:before{
+    content: '';
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #A1B7C8;
+    width: 40%;
+}
+.present {
+    padding-top: 70px;
+}
+}
+@media (min-width:1440px) {
+.present__photo {
+    width: 445px;
+}
+.present__group-title {
+    margin-bottom: 60px;
+}
+.present__title {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.present__subtitle {
+    font-size: 20px;
+}
+.present__description {
+    font-size: 18px;
+}
+}
