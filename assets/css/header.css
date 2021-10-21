@@ -114,8 +114,11 @@
     margin-bottom: 50px;
 }
 }
-@media (min-width:1440px ) {
+@media (min-width:1140px ) {
 .header {
     padding-top: 60px;
+}
+.header__contacts {
+    display: block;
 }
 }
